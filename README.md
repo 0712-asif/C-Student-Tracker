@@ -160,3 +160,15 @@ Program terminates.
 ---
 
 ## 📁 File Structure
+Here is an overview of the project's file structure and the purpose of each file:
+         
+├── main.c
+
+├── student_tracker.h
+
+└── student_tracker.c
+
+
+---
+## ⚖️ License
+This project is distributed under MIT License. Please see LICENSE file for details on permissions and limitations.
