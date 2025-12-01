@@ -1,0 +1,50 @@
+TEACHER
+TS001
+Prof. Smith
+password123
+Mathematics
+STUDENT
+SRN001
+John Doe
+RECORD
+0
+1
+Attendance
+2025-12-01
+RECORD
+1
+18
+Mathematics
+Internal 1
+RECORD
+2
+4
+Mathematics
+Assignment 1
+STUDENT
+SRN002
+Jane Smith
+RECORD
+0
+0
+Attendance
+2025-12-01
+RECORD
+1
+16
+Mathematics
+Internal 1
+RECORD
+2
+5
+Mathematics
+Assignment 1
+STUDENT
+SRN003
+Alice Johnson
+RECORD
+5
+88
+Mathematics
+Semester Exam
+END_OF_FILE

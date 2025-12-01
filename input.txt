@@ -1,0 +1,34 @@
+2
+Prof. Smith
+TS001
+password123
+Mathematics
+1
+TS001
+password123
+1
+John Doe
+SRN001
+1
+Jane Smith
+SRN002
+2
+7
+SRN001
+1
+SRN002
+1
+8
+SRN001
+18
+SRN002
+16
+9
+SRN001
+4
+SRN002
+5
+13
+14
+15
+3
