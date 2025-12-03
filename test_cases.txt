@@ -1,0 +1,184 @@
+# TEST CASES FOR STUDENT TRACKER SYSTEM
+# Each test case is separated by: ========== TEST CASE N ==========
+
+========== TEST CASE 1: Create Teacher Account ==========
+# Input: Choice 2 - Create new teacher account
+# Expected: Account created successfully message
+2
+Prof. John Smith
+T001
+pass123
+Mathematics
+
+========== TEST CASE 2: Login with Valid Credentials ==========
+# Input: Choice 1 - Login with valid teacher ID and password
+# Expected: Successful login, main menu appears
+1
+T001
+pass123
+
+========== TEST CASE 3: Add New Students ==========
+# Input: Choice 1 - Add three students
+# Expected: Students added successfully
+1
+John Doe
+S001
+1
+Jane Smith
+S002
+1
+Bob Wilson
+S003
+
+========== TEST CASE 4: List All Students ==========
+# Input: Choice 2 - List students sorted by SRN
+# Expected: Display all 3 students in sorted order
+2
+
+========== TEST CASE 5: Modify Student Name ==========
+# Input: Choice 4 - Modify student name
+# Expected: Name updated successfully
+4
+S001
+John Michael Doe
+
+========== TEST CASE 6: Modify Student SRN ==========
+# Input: Choice 5 - Modify student SRN
+# Expected: SRN updated, tree restructured
+5
+S001
+S001A
+
+========== TEST CASE 7: Take Attendance ==========
+# Input: Choice 7 - Mark attendance for all students
+# Expected: Attendance recorded for date
+7
+2025-12-03
+S001A
+1
+S002
+1
+S003
+0
+
+========== TEST CASE 8: Log Internal 1 Marks ==========
+# Input: Choice 8 - Add Internal 1 marks (20 max)
+# Expected: Marks added successfully
+8
+S001A
+18
+8
+S002
+16
+8
+S003
+19
+
+========== TEST CASE 9: Log Assignment 1 Marks ==========
+# Input: Choice 9 - Add Assignment 1 marks (5 max)
+# Expected: Marks added successfully
+9
+S001A
+5
+9
+S002
+4
+9
+S003
+5
+
+========== TEST CASE 10: Log Internal 2 Marks ==========
+# Input: Choice 10 - Add Internal 2 marks (20 max)
+# Expected: Marks added successfully
+10
+S001A
+19
+10
+S002
+17
+10
+S003
+18
+
+========== TEST CASE 11: Log Assignment 2 Marks ==========
+# Input: Choice 11 - Add Assignment 2 marks (5 max)
+# Expected: Marks added successfully
+11
+S001A
+5
+11
+S002
+3
+11
+S003
+4
+
+========== TEST CASE 12: Log Semester Exam Marks ==========
+# Input: Choice 12 - Add Semester Exam marks (100 max)
+# Expected: Marks added successfully
+12
+S001A
+85
+12
+S002
+78
+12
+S003
+92
+
+========== TEST CASE 13: Modify Existing Mark ==========
+# Input: Choice 6 - Modify a previously entered mark
+# Expected: Mark updated successfully
+6
+S002
+4
+80
+
+========== TEST CASE 14: Generate Subject Report ==========
+# Input: Choice 13 - Generate subject-wise report
+# Expected: Display all marks for the subject
+13
+S001A
+Mathematics
+
+========== TEST CASE 15: Generate Master Report ==========
+# Input: Choice 14 - Generate complete student report
+# Expected: Display all records for student
+14
+S001A
+
+========== TEST CASE 16: Delete Student ==========
+# Input: Choice 3 - Delete a student
+# Expected: Student removed from system
+3
+S003
+
+========== TEST CASE 17: List Students After Deletion ==========
+# Input: Choice 2 - Verify deletion
+# Expected: Display only 2 remaining students
+2
+
+========== TEST CASE 18: Logout and Save Data ==========
+# Input: Choice 15 - Logout with save
+# Expected: Data saved to file, return to login menu
+15
+y
+
+========== TEST CASE 19: Login Again and Verify Persistence ==========
+# Input: Login again to verify saved data
+# Expected: Previously entered data should be loaded
+1
+T001
+pass123
+2
+
+========== TEST CASE 20: Logout Without Saving ==========
+# Input: Choice 15 - Logout without saving
+# Expected: Changes not saved warning
+15
+n
+
+========== TEST CASE 21: Exit Application ==========
+# Input: Choice 3 - Exit from login menu
+# Expected: Memory freed, program exits
+3
